@@ -1,0 +1,36 @@
+route-detail {
+  ion-title {
+    span.avatar {
+      display: inline-block;
+      border-radius: 50%;
+      padding: 10px;
+      margin-left: -10px;
+      background-color: color($colors, white);
+      color: color($colors, primary);
+    }
+  }
+
+  #map-elastic {
+    // background-image: url("../assets/img/photo.jpg");
+    // background-size: cover;
+    // background-position: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 150ms ease-in;
+
+    &.show {
+      opacity: 1;
+    }
+  }
+
+  ion-pullup {
+    ion-toolbar {
+      box-shadow: 0 -2px 2px color($colors, primary);
+    }
+  }
+
+  span.tab-button-text {
+    text-transform: uppercase !important;
+  }
+}

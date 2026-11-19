@@ -1,0 +1,22 @@
+// Ionic Variables and Theming
+@import "ionic.globals";
+
+// Shared Variables
+$text-color:        #000;
+$background-color:  #fff;
+
+// App Theme
+@import "ionic.theme.default";
+
+// Ionicons
+$ionicons-font-path: "../assets/fonts";
+@import "ionicons";
+
+// SCSS
+@import "./colors";
+@import "./helpers";
+@import "./list";
+@import "./fab";
+@import "./timeline";
+
+$toolbar-md-background: color($colors, primary);

@@ -1,0 +1,23 @@
+search-places {
+  ion-content {
+    .scroll-content {
+      overflow-y: hidden;
+    }
+
+    ion-list {
+      ion-scroll {
+        .scroll-content {
+          overflow-y: scroll;
+        }
+
+        [ion-item] {
+          &:last-child {
+            .item-inner {
+              border-bottom: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

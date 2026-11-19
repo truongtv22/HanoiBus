@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-searchbar [(ngModel)]="keyword" placeholder="Tìm kiếm địa điểm...">
+    </ion-searchbar>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      Kết quả tìm kiếm
+    </ion-list-header>
+    <ion-scroll scrollY="true">
+      <button ion-item *ngFor="let item of [1,2,3,4,5,6,7,8,9,10]">
+        <ion-icon name="md-pin" item-left></ion-icon>
+        <h2>Bệnh viện Phụ sản Mekong</h2>
+        <p>Nguyễn Văn Trỗi, Phường 1, Phường 2, Quận Phú Nhuận, Thành phố Hồ Chí Minh.</p>
+      </button>
+    </ion-scroll>
+  </ion-list>
+</ion-content>

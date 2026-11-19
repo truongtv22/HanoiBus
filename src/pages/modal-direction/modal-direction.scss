@@ -1,0 +1,22 @@
+modal-direction {
+  ion-content {
+    ion-label {
+      color: color($colors, primary);
+    }
+
+    ion-input {
+      background-color: color($colors, light);
+      border-radius: 5px;
+    }
+
+    button[ion-fab] {
+      width: 36px;
+      height: 36px;
+      margin-left: 5px;
+    }
+
+    button#btnShowTransfer {
+      border-radius: 5px;
+    }
+  }
+}

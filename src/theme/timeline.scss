@@ -1,0 +1,121 @@
+// Ví dụ:
+//
+// <ion-list class="timeline googleplus">
+//   <div class="timeline-group facebook">
+//     <button ion-item class="timeline-item timeline-actived">
+//       <ion-avatar item-left></ion-avatar>
+//       <div class="timeline-dot"></div>
+//       Item 1
+//     </button>
+//   </div>
+//   <div class="timeline-group youtube">
+//     <button ion-item class="timeline-item">
+//       <ion-avatar item-left></ion-avatar>
+//       <div class="timeline-dot"></div>
+//       Item 2.1
+//     </button>
+//     <button ion-item class="timeline-item timeline-actived">
+//       <ion-avatar item-left></ion-avatar>
+//       <div class="timeline-dot"></div>
+//       Item 2.2
+//     </button>
+//   </div>
+// </ion-list>
+
+.timeline {
+  list-style-type: none;
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: -1px;
+
+    .item-inner {
+      border-bottom-width: 2px !important;
+    }
+
+    // đường thẳng đứng
+    &:before {
+      position: absolute;
+      content: '';
+      display: block;
+      top: 0px;
+      left: 35px;
+      height: 100%;
+      border-left: solid 2px color($colors, primary);
+    }
+
+    &:first-child:before {
+      margin-top: 23px;
+      height: calc(100% - 23px);
+    }
+
+    &:last-child:before {
+      height: 23px;
+    }
+
+    // khi chỉ có một
+    &:only-child {
+      &:first-child:before {
+        display: none;
+      }
+    }
+
+    .timeline-dot {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      left: 29px;
+      border-radius: 50%;
+      border: 2px solid color($colors, primary);
+      background-color: color($colors, primary);
+    }
+
+    &.timeline-actived {
+      color: color($colors, primary);
+      font-weight: bold;
+
+      .timeline-dot {
+        background-color: color($colors, white) !important;
+      }
+    }
+  }
+
+  // thêm màu
+  @each $color-name, $color-value in $colors {
+    &.#{$color-name} {
+      .timeline-item {
+        &:before {
+          border-left-color: color($colors, $color-name);
+        }
+
+        .timeline-dot {
+          border-color: color($colors, $color-name);
+          background-color: color($colors, $color-name);
+        }
+
+        &.timeline-actived {
+          color: color($colors, $color-name);
+        }
+      }
+    }
+
+    .timeline-group {
+      &.#{$color-name} {
+        .timeline-item {
+          &:before {
+            border-left-color: color($colors, $color-name);
+          }
+
+          .timeline-dot {
+            border-color: color($colors, $color-name);
+            background-color: color($colors, $color-name);
+          }
+
+          &.timeline-actived {
+            color: color($colors, $color-name);
+          }
+        }
+      }
+    }
+  }
+}

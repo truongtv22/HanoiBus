@@ -1,0 +1,14 @@
+<ion-content>
+  <div class="fix-scroll">
+    <ion-list class="timeline">
+      <ion-list-header text-center *ngIf="stations.length == 0">
+        Hiện tại chưa có trạm dừng nào
+      </ion-list-header>
+      <button ion-item class="timeline-item" [ngClass]="{'timeline-actived': idxChecked == i}" *ngFor="let station of stations; let i = index" (click)="chooseStation(i)">
+          <ion-avatar item-left></ion-avatar>
+          <div class="timeline-dot"></div>
+          {{ station }}
+      </button>
+    </ion-list>
+  </div>
+</ion-content>

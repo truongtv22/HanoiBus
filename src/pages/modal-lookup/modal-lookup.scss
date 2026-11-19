@@ -1,0 +1,16 @@
+modal-lookup {
+  ion-content {
+    ion-list {
+      ion-avatar {
+        background-color: color($colors, primary);
+        border-radius: 50%;
+
+        p {
+          color: color($colors, white) !important;
+          margin-top: 11px !important;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

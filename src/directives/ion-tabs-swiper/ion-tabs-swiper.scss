@@ -1,0 +1,11 @@
+ion-tabs-swiper {
+  ion-slides {
+    margin-top: #{$toolbar-md-height};
+    height: calc(100% - #{$toolbar-md-height});
+
+    ion-content {
+      font-size: 1.4rem;
+      margin-top: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+<ion-content text-left>
+  <div class="fix-scroll">
+    <ion-grid>
+      <ion-row>
+        <ion-col width-33>
+          <b>Mã số tuyến:</b>
+        </ion-col>
+        <ion-col>
+          {{ route.RouteNo }}
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col width-33>
+          <b>Tên tuyến:</b>
+        </ion-col>
+        <ion-col>
+          {{ route.RouteName }}
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <b>Lượt đi:</b>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          {{ route.Go }}
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <b>Lượt về:</b>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          {{ route.Re }}
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <b>Đơn vị đảm nhận:</b>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          {{ route.Enterprise }}
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

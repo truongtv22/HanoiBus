@@ -1,0 +1,27 @@
+[auto-scroll] .scroll-content {
+  overflow-y: auto;
+}
+
+[center-horizontal],
+[center-horizontal] .scroll-content {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+[center-vertical],
+[center-vertical] .scroll-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+[center-both],
+[center-both] .scroll-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+[text-none] {
+  text-transform: none !important;
+}

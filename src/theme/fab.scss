@@ -1,0 +1,59 @@
+// Ví dụ
+//
+// <ion-fab right bottom>
+//   <button ion-fab>
+//     <ion-icon name="add"></ion-icon>
+//   </button>
+//   <ion-fab-list side="top">
+//     <div class="fab-item">
+//       <div class="fab-label">
+//         Nội dung
+//       </div>
+//       <button ion-fab color="primary">
+//         <ion-icon name="search"></ion-icon>
+//       </button>
+//     </div>
+//   </ion-fab-list>
+// </ion-fab>
+
+ion-fab {
+  .fab-item {
+    .fab-label {
+      visibility: hidden;
+      position: absolute;
+      border-radius: 3px;
+      padding: 5px 10px;
+      background-color: color($colors, primary);
+      color: color($colors, white);
+      white-space: nowrap;
+      -webkit-margin-before: 1em;
+      -webkit-margin-after: 1em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+    }
+  }
+
+  &[right] {
+    &[top] ion-fab-list[side=bottom],
+    &[bottom] ion-fab-list[side=top] {
+      .fab-item {
+        .fab-label {
+          visibility: visible;
+          right: 63px;
+        }
+      }
+    }
+  }
+
+  &[left] {
+    &[bottom] ion-fab-list[side=top],
+    &[top] ion-fab-list[side=bottom] {
+      .fab-item {
+        .fab-label {
+          visibility: visible;
+          left: 63px;
+        }
+      }
+    }
+  }
+}

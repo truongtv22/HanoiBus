@@ -1,0 +1,41 @@
+//* Colors *//
+$colors: (
+  primary: (
+    base:     #3e70c9,
+    contrast: #fff
+  ),
+  secondary:  #888,
+  danger:     #f44236,
+  light: (
+    base:     #f4f4f4,
+    contrast: #000
+  ),
+  dark:       #222,
+  info:       #20b9ae,
+  success:    #43b968,
+  warning:    #f59345,
+  purple:     #a567e2,
+  black:      #333,
+  white: (
+    base:     #fff,
+    contrast: #000
+  ),
+  facebook:   #3b5998,
+  twitter:    #00aced,
+  linkedin:   #007bb6,
+  dribbble:   #ea4c89,
+  googleplus: #dd4b39,
+  instagram:  #517fa4,
+  pinterest:  #cb2027,
+  dropbox:    #007ee5,
+  flickr:     #ff0084,
+  tumblr:     #32506d,
+  skype:      #00aff0,
+  youtube:    #bb0000
+);
+
+@each $color-name, $color-value in $colors {
+  [background-color=#{$color-name}] {
+    background-color: color($colors, $color-name) !important;
+  }
+}

@@ -1,0 +1,7 @@
+<ion-grid style='border-top: 2px solid #3e70c9;'>
+  <ion-row *ngFor='let item of [1,2,3]'>
+    <button ion-button text-none full clear color='dark' (click)='chooseMaxTransfer(item)'>
+      Đi tối đa {{ item }} chuyến
+    </button>
+  </ion-row>
+</ion-grid>

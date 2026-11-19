@@ -1,0 +1,40 @@
+station-detail {
+  ion-content {
+    .scroll-content {
+      overflow-y: hidden;
+    }
+
+    ion-tabs {
+      margin-top: calc(#{$toolbar-md-height} - 1px);
+    }
+
+    ion-slides {
+      margin-top: calc(2*#{$toolbar-md-height});
+
+      .slide-zoom {
+        height: inherit;
+
+        ion-content {
+          .scroll-content {
+            height: calc(100% - 2*#{$toolbar-md-height});
+          }
+        }
+      }
+    }
+  }
+
+  .tab-bus-routes {
+    ion-list {
+      ion-avatar {
+        background-color: color($colors, primary);
+        border-radius: 50%;
+
+        p {
+          color: color($colors, white) !important;
+          margin-top: 11px !important;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

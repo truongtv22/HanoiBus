@@ -1,0 +1,44 @@
+<modal-small [width]="70" [height]="65">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title text-center>
+        Tìm đường
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content auto-scroll>
+    <ion-grid center-both>
+      <ion-row>
+        <ion-label>Địa điểm xuất phát:</ion-label>
+      </ion-row>
+      <ion-row>
+        <ion-input type="text" placeholder="Nhập địa điểm xuất phát" (click)="showSearchPlaces()"></ion-input>
+        <button ion-fab (click)="chooseOnMap()"><ion-icon name="locate"></ion-icon></button>
+      </ion-row>
+      <ion-row>
+        <ion-label>Địa điểm kết thúc:</ion-label>
+      </ion-row>
+      <ion-row>
+        <ion-input type="text" type="text" placeholder="Nhập địa điểm đến" (click)="showSearchPlaces()"></ion-input>
+        <button ion-fab (click)="chooseOnMap()"><ion-icon name="locate"></ion-icon></button>
+      </ion-row>
+      <ion-row>
+        <ion-label>Số xe cần đi tối đa:</ion-label>
+      </ion-row>
+      <ion-row>
+        <button id="btnShowTransfer" ion-button clear text-none color="dark" icon-right (click)="showTransfer()">
+        Đi tối đa {{ maxTransfer }} chuyến
+        <ion-icon name="md-arrow-dropdown"></ion-icon>
+      </button>
+      </ion-row>
+      <ion-row>
+        <ion-label style="display: inline-table;">Chỉ tìm tuyến đang chạy</ion-label>
+        <ion-toggle center-horizontal checked="false"></ion-toggle>
+      </ion-row>
+      <ion-row>
+        <button ion-button (click)="showResults()">Tìm đường</button>
+        <button ion-button outline (click)="exitModal()">Thoát</button>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</modal-small>

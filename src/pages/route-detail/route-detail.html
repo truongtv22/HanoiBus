@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <span class="avatar">01</span> Thông tin tuyến số 01
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div id="map-elastic">
+  </div>
+</ion-content>
+<ion-pullup [(state)]="pullupState">
+  <ion-toolbar color="light">
+    <ion-title>
+      <small style="position: absolute; margin-top: 10px;">
+        Bến Thành- BX Chợ Lớn
+      </small>
+      <div style="display: inline; float: right;">
+        <button ion-button text-none small outline (click)="toggleDirection()">
+          {{ nameDirection }}
+        </button>
+        <button ion-button small color="dark" clear icon-only (click)="togglePullupState()">
+          <ion-icon name="arrow-up" *ngIf="pullupState == 0"></ion-icon>
+          <ion-icon name="arrow-down" *ngIf="(pullupState == 1) || (pullupState == 2)"></ion-icon>
+        </button>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+  <ion-content>
+    <ion-tabs-swiper>
+      <ion-tab-swiper tabTitle="Trạm dừng">
+        <tab-station></tab-station>
+      </ion-tab-swiper>
+      <ion-tab-swiper tabTitle="Thông tin">
+        <tab-information></tab-information>
+      </ion-tab-swiper>
+    </ion-tabs-swiper>
+  </ion-content>
+</ion-pullup>

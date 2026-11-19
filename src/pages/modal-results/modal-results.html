@@ -1,0 +1,31 @@
+<modal-small>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        <div text-center>
+          Danh sách chỉ dẫn
+        </div>
+        <small>Đi từ [Điểm tọa độ]</small>
+        <br>
+        <small>Đến [Điểm tọa độ]</small>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <button ion-item *ngFor="let item of [1,2,3,4,5,6,7,8,9]" (click)="showInstruction()">
+      <ion-avatar class="order-number" item-left>
+        <p>{{ item }}</p>
+      </ion-avatar>
+      <h2>Đi tuyến 46</h2>
+      <ion-icon name="md-walk"></ion-icon> 40 mét	&nbsp;
+      <ion-icon name="md-bus"></ion-icon> 1,2 km
+      <ion-avatar class="route-number" item-right>
+        <span><small background-color="youtube" class="route-number-2">03</small></span>
+        <span><small background-color="facebook" class="route-number-2">11</small></span>
+        <span><small background-color="success" class="route-number-3">139</small></span>
+      </ion-avatar>
+    </button>
+    </ion-list>
+  </ion-content>
+</modal-small>

@@ -1,0 +1,21 @@
+<modal-small>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title text-center>
+        Chọn tuyến xe buýt
+      </ion-title>
+    </ion-toolbar>
+    <ion-searchbar placeholder="Tìm nhanh" [(ngModel)]="keyword" (ionInput)="search()"></ion-searchbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <button ion-item *ngFor="let route of routes" (click)="goRouteDetail()">
+      <ion-avatar item-left>
+        <p>{{ route.RouteNo }}</p>
+      </ion-avatar>
+      <h2>Tuyến số {{ route.RouteNo }}</h2>
+      <p>{{ route.RouteName }}</p>
+    </button>
+    </ion-list>
+  </ion-content>
+</modal-small>

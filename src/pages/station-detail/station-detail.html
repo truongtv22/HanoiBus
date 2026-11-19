@@ -1,0 +1,65 @@
+<ion-header no-shadow>
+  <ion-toolbar>
+    <ion-buttons left>
+      <button ion-button (click)="back()" style="margin: 0 6px; min-width: 44px;">
+        <ion-icon name="md-arrow-back" style="padding: 0 6px; font-size: 2.4rem; font-weight: normal;"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>
+      Bộ Công an
+      <br>
+      <small>211-213, đường Nguyễn Văn Cừ, Quận 5</small>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-tabs-swiper>
+    <ion-tab-swiper tabTitle="Các tuyến xe buýt">
+      <ion-content auto-scroll class="tab-bus-routes">
+        <div class="fix-scroll">
+          <ion-list inset>
+            <button ion-item *ngFor="let item of [1,2,3,4]">
+              <ion-avatar item-left>
+                <p>11</p>
+              </ion-avatar>
+              <h2>Tuyến số 11 (lượt về)</h2>
+              <p>Bến Thành- Đầm Sen</p>
+            </button>
+            <button ion-item>
+              <ion-avatar item-left>
+                <p>45</p>
+              </ion-avatar>
+              <h2>Tuyến số 45 (lượt đi)</h2>
+              <p>Bến xe Quận 8- Bến Thành- Bến xe Miền Đông</p>
+            </button>
+            <button ion-item>
+              <ion-avatar item-left>
+                <p>56</p>
+              </ion-avatar>
+              <h2>Tuyến số 56 (lượt đi)</h2>
+              <p>Bến xe Chợ Lớn- Đại học Giao thông Vận tải</p>
+            </button>
+            <button ion-item>
+              <ion-avatar item-left>
+                <p>96</p>
+              </ion-avatar>
+              <h2>Tuyến số 96 (lượt về)</h2>
+              <p>Bến Thành- Chợ Bình Điền</p>
+            </button>
+          </ion-list>
+        </div>
+      </ion-content>
+    </ion-tab-swiper>
+    <ion-tab-swiper tabTitle="Thời gian chờ">
+      <ion-content auto-scroll class="tab-waiting-time">
+        <div class="fix-scroll">
+        </div>
+      </ion-content>
+    </ion-tab-swiper>
+  </ion-tabs-swiper>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <button ion-button clear full color="white"><b>Theo dõi trạm này</b></button>
+  </ion-toolbar>
+</ion-footer>

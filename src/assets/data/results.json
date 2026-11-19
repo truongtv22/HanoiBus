@@ -1,0 +1,346 @@
+[{
+  "STT": 4,
+  "walkDistance": 388.847076,
+  "walkDistancePretty": "389 mét",
+  "busDistance": 2094.730713,
+  "busDistancePretty": "2.1 km",
+  "detailList": [{
+    "busStation": {
+      "StationId": 0,
+      "StationName": null,
+      "StationAddress": null,
+      "Lat": 10.765366,
+      "Lng": 106.680374
+    },
+    "busRoute": {
+      "RouteName": null,
+      "RouteNo": null
+    },
+    "stationOrder": 0,
+    "stationDirection": 0,
+    "busPathPoints": []
+  }, {
+    "busStation": {
+      "StationId": 1406,
+      "StationName": "Ngã 6 Cộng Hòa",
+      "StationAddress": "Đối diện 30-32, đường Lý Thái Tổ, Quận 10",
+      "Lat": 10.76571,
+      "Lng": 106.68045
+    },
+    "busRoute": {
+      "RouteName": "Bến Thành - Âu Cơ - An Sương",
+      "RouteNo": "27"
+    },
+    "stationOrder": 37,
+    "stationDirection": 0,
+    "busPathPoints": ["10.766400,106.678596", "10.766306,106.678574", "10.765747,106.680267"]
+  }, {
+    "busStation": {
+      "StationId": 2405,
+      "StationName": "Nhà Sách Minh Khai",
+      "StationAddress": "59-61, đường Phạm Viết Chánh, Quận 1",
+      "Lat": 10.76602,
+      "Lng": 106.6828
+    },
+    "busRoute": {
+      "RouteName": "Bến Thành - Âu Cơ - An Sương",
+      "RouteNo": "27"
+    },
+    "stationOrder": 38,
+    "stationDirection": 0,
+    "busPathPoints": ["10.765747,106.680267", "10.765747,106.680267", "10.765494,106.681259", "10.765309,106.681366", "10.765215,106.681465", "10.765188,106.681534", "10.765204,106.681702", "10.765288,106.681801", "10.765394,106.681847", "10.765505,106.681824", "10.765684,106.681969", "10.765779,106.682007", "10.766089,106.682716", "10.766020,106.682800"]
+  }, {
+    "busStation": {
+      "StationId": 2407,
+      "StationName": "Bệnh viện Truyền máu huyết học",
+      "StationAddress": "19-21, đường Phạm Viết Chánh, Quận 1",
+      "Lat": 10.767591,
+      "Lng": 106.685135
+    },
+    "busRoute": {
+      "RouteName": "Bến Thành - Âu Cơ - An Sương",
+      "RouteNo": "27"
+    },
+    "stationOrder": 39,
+    "stationDirection": 0,
+    "busPathPoints": ["10.766020,106.682800", "10.766090,106.682747", "10.767660,106.685089"]
+  }, {
+    "busStation": {
+      "StationId": 164,
+      "StationName": "Chợ Thái Bình",
+      "StationAddress": "A43, đường Cống Quỳnh, Quận 1",
+      "Lat": 10.766863,
+      "Lng": 106.687653
+    },
+    "busRoute": {
+      "RouteName": "Bến Thành - Âu Cơ - An Sương",
+      "RouteNo": "27"
+    },
+    "stationOrder": 40,
+    "stationDirection": 0,
+    "busPathPoints": ["10.767660,106.685089", "10.767591,106.685135", "10.767902,106.685448", "10.766959,106.687576", "10.766863,106.687653"]
+  }, {
+    "busStation": {
+      "StationId": 1012,
+      "StationName": "Chùa Lâm Tế",
+      "StationAddress": "Đối diện 211 (212A), đường Nguyễn Trãi, Quận 1",
+      "Lat": 10.765736,
+      "Lng": 106.687798
+    },
+    "busRoute": {
+      "RouteName": "Cảng Quận 4- Bến Thành- Bến Mễ Cốc",
+      "RouteNo": "46"
+    },
+    "stationOrder": 15,
+    "stationDirection": 1,
+    "busPathPoints": ["10.767692,106.688591", "10.767692,106.688591", "10.767390,106.688499", "10.767020,106.688362", "10.766770,106.688309", "10.766770,106.688293", "10.766750,106.688248", "10.766710,106.688217", "10.766640,106.688263", "10.766450,106.688148", "10.765736,106.687798"]
+  }, {
+    "busStation": {
+      "StationId": 1019,
+      "StationName": "City plaza",
+      "StationAddress": "230, đường Nguyễn Trãi, Quận 1",
+      "Lat": 10.764556,
+      "Lng": 106.687386
+    },
+    "busRoute": {
+      "RouteName": "Cảng Quận 4- Bến Thành- Bến Mễ Cốc",
+      "RouteNo": "46"
+    },
+    "stationOrder": 16,
+    "stationDirection": 1,
+    "busPathPoints": ["10.765736,106.687798", "10.765736,106.687798", "10.763752,106.687080"]
+  }, {
+    "busStation": {
+      "StationId": 3076,
+      "StationName": "Trường Đại học Sài Gòn",
+      "StationAddress": "4, đường Nguyễn Trãi, Quận 5",
+      "Lat": 10.759333,
+      "Lng": 106.683411
+    },
+    "busRoute": {
+      "RouteName": "Cảng Quận 4- Bến Thành- Bến Mễ Cốc",
+      "RouteNo": "46"
+    },
+    "stationOrder": 17,
+    "stationDirection": 1,
+    "busPathPoints": ["10.763752,106.687080", "10.763720,106.687157", "10.763280,106.686981", "10.762680,106.686661", "10.762450,106.686562", "10.760400,106.685379", "10.760060,106.685150", "10.759910,106.685013", "10.759840,106.684929", "10.759700,106.684692", "10.759400,106.683990", "10.759220,106.683472"]
+  }, {
+    "busStation": {
+      "StationId": 3079,
+      "StationName": "Trường THCS Ba Đình",
+      "StationAddress": "257, đường Nguyễn Biểu, Quận 5",
+      "Lat": 10.758242,
+      "Lng": 106.682785
+    },
+    "busRoute": {
+      "RouteName": "Cảng Quận 4- Bến Thành- Bến Mễ Cốc",
+      "RouteNo": "46"
+    },
+    "stationOrder": 18,
+    "stationDirection": 1,
+    "busPathPoints": ["10.759220,106.683472", "10.759271,106.683449", "10.758920,106.682610", "10.758231,106.682755"]
+  }, {
+    "busStation": {
+      "StationId": 0,
+      "StationName": null,
+      "StationAddress": null,
+      "Lat": 10.756782,
+      "Lng": 106.681381
+    },
+    "busRoute": {
+      "RouteName": null,
+      "RouteNo": null
+    },
+    "stationOrder": 0,
+    "stationDirection": 0,
+    "busPathPoints": []
+  }],
+  "shortList": [{
+    "busStation": {
+      "StationId": 1406,
+      "StationName": "Ngã 6 Cộng Hòa",
+      "StationAddress": "Đối diện 30-32, đường Lý Thái Tổ, Quận 10",
+      "Lat": 10.76571,
+      "Lng": 106.68045
+    },
+    "busRoute": {
+      "RouteName": "Bến Thành - Âu Cơ - An Sương",
+      "RouteNo": "27"
+    },
+    "stationOrder": 37,
+    "stationDirection": 0,
+    "busPathPoints": ["10.766400,106.678596", "10.766306,106.678574", "10.765747,106.680267"]
+  }, {
+    "busStation": {
+      "StationId": 1012,
+      "StationName": "Chùa Lâm Tế",
+      "StationAddress": "Đối diện 211 (212A), đường Nguyễn Trãi, Quận 1",
+      "Lat": 10.765736,
+      "Lng": 106.687798
+    },
+    "busRoute": {
+      "RouteName": "Cảng Quận 4- Bến Thành- Bến Mễ Cốc",
+      "RouteNo": "46"
+    },
+    "stationOrder": 15,
+    "stationDirection": 1,
+    "busPathPoints": ["10.767692,106.688591", "10.767692,106.688591", "10.767390,106.688499", "10.767020,106.688362", "10.766770,106.688309", "10.766770,106.688293", "10.766750,106.688248", "10.766710,106.688217", "10.766640,106.688263", "10.766450,106.688148", "10.765736,106.687798"]
+  }],
+  "routeList": ["27", "46"],
+  "Navigation": [{
+    "Forward": 0,
+    "Title": "Đón tuyến 27",
+    "Address": "Xuất phát từ: 5 Lý Thái Tổ, phường 1, Quận 10, Hồ Chí Minh, Việt Nam\nĐón tuyến 27 tại trạm: Ngã 6 Cộng Hòa",
+    "isWalk": true,
+    "startStation": null,
+    "endStation": {
+      "busStation": {
+        "StationId": 1406,
+        "StationName": "Ngã 6 Cộng Hòa",
+        "StationAddress": "Đối diện 30-32, đường Lý Thái Tổ, Quận 10",
+        "Lat": 10.76571,
+        "Lng": 106.68045
+      },
+      "busRoute": {
+        "RouteName": "Bến Thành - Âu Cơ - An Sương",
+        "RouteNo": "27"
+      },
+      "stationOrder": 37,
+      "stationDirection": 0,
+      "busPathPoints": ["10.766400,106.678596", "10.766306,106.678574", "10.765747,106.680267"]
+    }
+  }, {
+    "Forward": 0,
+    "Title": "Đi tuyến xe 27",
+    "Address": "Ngã 6 Cộng Hòa → Chợ Thái Bình",
+    "isWalk": false,
+    "startStation": {
+      "busStation": {
+        "StationId": 1406,
+        "StationName": "Ngã 6 Cộng Hòa",
+        "StationAddress": "Đối diện 30-32, đường Lý Thái Tổ, Quận 10",
+        "Lat": 10.76571,
+        "Lng": 106.68045
+      },
+      "busRoute": {
+        "RouteName": "Bến Thành - Âu Cơ - An Sương",
+        "RouteNo": "27"
+      },
+      "stationOrder": 37,
+      "stationDirection": 0,
+      "busPathPoints": ["10.766400,106.678596", "10.766306,106.678574", "10.765747,106.680267"]
+    },
+    "endStation": {
+      "busStation": {
+        "StationId": 164,
+        "StationName": "Chợ Thái Bình",
+        "StationAddress": "A43, đường Cống Quỳnh, Quận 1",
+        "Lat": 10.766863,
+        "Lng": 106.687653
+      },
+      "busRoute": {
+        "RouteName": "Bến Thành - Âu Cơ - An Sương",
+        "RouteNo": "27"
+      },
+      "stationOrder": 40,
+      "stationDirection": 0,
+      "busPathPoints": ["10.767660,106.685089", "10.767591,106.685135", "10.767902,106.685448", "10.766959,106.687576", "10.766863,106.687653"]
+    }
+  }, {
+    "Forward": 1,
+    "Title": "Chuyển từ tuyến 27 sang tuyến 46",
+    "Address": "Xuống xe tại trạm: Chợ Thái Bình\nĐón tuyến 46 tại trạm: Chùa Lâm Tế",
+    "isWalk": true,
+    "startStation": {
+      "busStation": {
+        "StationId": 164,
+        "StationName": "Chợ Thái Bình",
+        "StationAddress": "A43, đường Cống Quỳnh, Quận 1",
+        "Lat": 10.766863,
+        "Lng": 106.687653
+      },
+      "busRoute": {
+        "RouteName": "Bến Thành - Âu Cơ - An Sương",
+        "RouteNo": "27"
+      },
+      "stationOrder": 40,
+      "stationDirection": 0,
+      "busPathPoints": ["10.767660,106.685089", "10.767591,106.685135", "10.767902,106.685448", "10.766959,106.687576", "10.766863,106.687653"]
+    },
+    "endStation": {
+      "busStation": {
+        "StationId": 1012,
+        "StationName": "Chùa Lâm Tế",
+        "StationAddress": "Đối diện 211 (212A), đường Nguyễn Trãi, Quận 1",
+        "Lat": 10.765736,
+        "Lng": 106.687798
+      },
+      "busRoute": {
+        "RouteName": "Cảng Quận 4- Bến Thành- Bến Mễ Cốc",
+        "RouteNo": "46"
+      },
+      "stationOrder": 15,
+      "stationDirection": 1,
+      "busPathPoints": ["10.767692,106.688591", "10.767692,106.688591", "10.767390,106.688499", "10.767020,106.688362", "10.766770,106.688309", "10.766770,106.688293", "10.766750,106.688248", "10.766710,106.688217", "10.766640,106.688263", "10.766450,106.688148", "10.765736,106.687798"]
+    }
+  }, {
+    "Forward": 1,
+    "Title": "Đi tuyến xe 46",
+    "Address": "Chùa Lâm Tế → Trường THCS Ba Đình",
+    "isWalk": false,
+    "startStation": {
+      "busStation": {
+        "StationId": 1012,
+        "StationName": "Chùa Lâm Tế",
+        "StationAddress": "Đối diện 211 (212A), đường Nguyễn Trãi, Quận 1",
+        "Lat": 10.765736,
+        "Lng": 106.687798
+      },
+      "busRoute": {
+        "RouteName": "Cảng Quận 4- Bến Thành- Bến Mễ Cốc",
+        "RouteNo": "46"
+      },
+      "stationOrder": 15,
+      "stationDirection": 1,
+      "busPathPoints": ["10.767692,106.688591", "10.767692,106.688591", "10.767390,106.688499", "10.767020,106.688362", "10.766770,106.688309", "10.766770,106.688293", "10.766750,106.688248", "10.766710,106.688217", "10.766640,106.688263", "10.766450,106.688148", "10.765736,106.687798"]
+    },
+    "endStation": {
+      "busStation": {
+        "StationId": 3079,
+        "StationName": "Trường THCS Ba Đình",
+        "StationAddress": "257, đường Nguyễn Biểu, Quận 5",
+        "Lat": 10.758242,
+        "Lng": 106.682785
+      },
+      "busRoute": {
+        "RouteName": "Cảng Quận 4- Bến Thành- Bến Mễ Cốc",
+        "RouteNo": "46"
+      },
+      "stationOrder": 18,
+      "stationDirection": 1,
+      "busPathPoints": ["10.759220,106.683472", "10.759271,106.683449", "10.758920,106.682610", "10.758231,106.682755"]
+    }
+  }, {
+    "Forward": 0,
+    "Title": "Đi bộ tới điểm đến",
+    "Address": "Xuống xe tại trạm: Trường THCS Ba Đình\nĐi bộ đến: 120 Trần Bình Trọng, phường 2, Quận 5, Hồ Chí Minh, Việt Nam",
+    "isWalk": true,
+    "startStation": {
+      "busStation": {
+        "StationId": 3079,
+        "StationName": "Trường THCS Ba Đình",
+        "StationAddress": "257, đường Nguyễn Biểu, Quận 5",
+        "Lat": 10.758242,
+        "Lng": 106.682785
+      },
+      "busRoute": {
+        "RouteName": "Cảng Quận 4- Bến Thành- Bến Mễ Cốc",
+        "RouteNo": "46"
+      },
+      "stationOrder": 18,
+      "stationDirection": 1,
+      "busPathPoints": ["10.759220,106.683472", "10.759271,106.683449", "10.758920,106.682610", "10.758231,106.682755"]
+    },
+    "endStation": null
+  }]
+}]

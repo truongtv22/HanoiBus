@@ -1,0 +1,19 @@
+tab-station {
+  ion-content {
+    .scroll-content {
+      margin-top: 0 !important;
+    }
+
+    ion-list {
+      ion-item {
+        &:first-child {
+          border-top: none !important;
+        }
+
+        &:last-child {
+          border-bottom: none !important;
+        }
+      }
+    }
+  }
+}

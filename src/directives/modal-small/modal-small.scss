@@ -1,0 +1,19 @@
+modal-small {
+  ion-header::after {
+    background-image: none !important;
+  }
+
+  ion-toolbar {
+    border-radius: 5px 5px 0 0;
+  }
+
+  ion-content {
+    border-radius: 5px;
+    background-color: color($colors, primary) !important;
+
+    .scroll-content {
+      margin: 2px;
+      background-color: color($colors, white);
+    }
+  }
+}

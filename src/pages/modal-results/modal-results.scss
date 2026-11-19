@@ -1,0 +1,42 @@
+modal-results {
+  ion-list {
+    button.item-block {
+      &:first-child {
+        border-top: none !important;
+      }
+
+      &:last-child {
+        border-bottom: none !important;
+      }
+
+      ion-avatar {
+        &.order-number p {
+          color: color($colors, primary) !important;
+          margin-top: 11px !important;
+          text-align: center;
+          font-size: 2em !important;
+        }
+
+        &.route-number {
+          position: absolute;
+          right: 0;
+          top: 8px;
+
+          small {
+            color: color($colors, white);
+            border-radius: 50%;
+            background-color: color($colors, primary);
+
+            &.route-number-2 {
+              padding: 5px;
+            }
+
+            &.route-number-3 {
+              padding: 5px 1px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
